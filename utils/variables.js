@@ -6,7 +6,7 @@ if (config.dev) {
     token = process.env.TOKEN;
     mongodb = config.mongodb_url;
 } if (!config.dev) {
-    token = config.main_token
+    token = process.env.TOKEN
     mongodb = config.mongodb_url
     
 };
