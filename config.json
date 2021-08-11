@@ -1,5 +1,4 @@
 {
-  "main_token": "", 
   "mongodb_url": "",
   "alexflipnoteApiKey":"",
   "developers": ["", ""],
